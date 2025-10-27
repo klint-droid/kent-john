@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 /**
  * Hero / Home section (id="home")
@@ -40,7 +39,7 @@ export default function Hero() {
           <div className="avatar">
             {/* ✅ Replaced with your Google Drive image link */}
             <img
-              src="./public/MyPic.png"
+              src="/MyPic.png"
               alt="Kent John Navarro"
               onError={(e) => {
                 e.target.src = "https://via.placeholder.com/140";
